@@ -6,8 +6,8 @@ body {
 
 /****************   Nav Section **********************/
 nav {
-	background-color: cyan;
-  color: navy;
+	background-color: black;
+  color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,8 +16,8 @@ nav {
 
 /***********************  Footer Section   **************************/
 footer {
-	background-color: cyan;
-  color: navy;
+	background-color: black;
+  color: red;
   display: flex;
   justify-content: center;
   padding: 1rem;
@@ -27,33 +27,35 @@ footer {
 /*********** Splash Page ************************/
 header {
   text-align: center;
-  background-color: rgb(223, 214, 214);
+  background-color: rgb(180, 179, 179);
   padding: 3rem 1rem;
   color: white;
 }
 
-header h1 {
+h1 {
+  text-align: center;
   font-family: "Roboto Slab", serif;
   font-size: 2.5rem;
-  color: navy;
+  color: rgb(10, 10, 10);
   margin-bottom: 1rem;
 }
 
 header img {
   border-radius: 50%;
-  border: 4px solid navy;
+  border: 4px solid black;
   width: 200px;
   height: auto;
 }
 
 .address {
   font-style: italic;
-  color: navy;
+  color: black;
+  text-align: center;
 }
 
 .tagline {
   font-size: 1.2rem;
-  color: navy;
+  color: black;
   margin-top: 1rem;
 }
 
@@ -62,14 +64,15 @@ hr {
   margin: 2rem auto;
   border: 0;
   height: 1px;
-  background-color: #ccc;
+  background-color: red;
   width: 80%;
 }
 
 section h3 {
   font-family: "Roboto Slab", serif;
-  color: navy;
+  color: rgb(12, 12, 12);
   margin-top: 1rem;
+  margin: 0 0 0 20px;
 }
 
 section dl {
@@ -77,24 +80,25 @@ section dl {
   font-family: "Roboto Slab", serif;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 1rem;
+  margin: 0 0 0 50px;
 }
 
 section ul {
   list-style-type: square;
   font-family: "Roboto Slab", serif;
   padding-left: 1.5rem;
+  margin: 0 0 0 50px;
 }
 
 a {
   text-decoration: none;
-  color: navy;
+  color: red;
 }
 
 a:hover {
   text-decoration: none;
   color: #ff6600;
 }
-
 /**************   Projects   *****************/
 .three-col {
 	display: grid;
@@ -144,7 +148,7 @@ a:hover {
 input {
   width: 100%;
   padding: 0.75rem;
-  margin: 0.5rem 0;
+  margin: 0 0 0 20px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
@@ -153,8 +157,16 @@ input {
 textarea {
   width: 100%;
   padding: 0.75rem;
-  margin: 0.5rem 0;
+  margin: 0 0 0 20px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
+}
+
+button {
+  margin: 0 0 0 20px;
+}
+
+label {
+  margin: 0 0 0 20px;
 }
